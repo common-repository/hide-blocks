@@ -1,0 +1,23 @@
+{
+  "name": "hide-blocks",
+  "version": "1.0.3",
+  "description": "Allow to hide gutenberg blocks.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Jost",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/block-editor": "5.1.2",
+    "@wordpress/components": "11.1.1",
+    "@wordpress/compose": "3.22.0",
+    "@wordpress/element": "2.18.0",
+    "@wordpress/hooks": "2.10.0",
+    "@wordpress/i18n": "3.16.0",
+    "@wordpress/scripts": "12.5.0",
+    "lodash": "4.17.20",
+    "lodash.assign": "4.2.0"
+  }
+}
